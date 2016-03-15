@@ -2,7 +2,7 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.KidsTutor"
+        id          = "com.phonegap.Quotes"
         version     = "1.0.0"
         versionCode = "10" >
 
@@ -10,10 +10,10 @@
 
         <preference name="phonegap-version" value="3.6.3" />
 
-        <name>Kids Tutor</name>
+        <name>Quotes</name>
 
         <description>
-        Educational app for kids. 
+        Quotes app with images and text. 
         </description>
 
         <author href="http://www.webflax.in/" email="shubhamjaiswal1860@gmail.com">
