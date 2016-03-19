@@ -5,7 +5,7 @@
     <h1 style="font-family:'cursive'">{{demo}}</h1>
   </div>
         
-  <div class="item item-image">
+  <div class="item item-image" id="image">
     <img src="img/{{message}}/{{touchPageData}}" class="fullscreen-image" > 
         </div>
 
@@ -13,7 +13,7 @@
 
          <div class='button-bar' id="buttonDiv">
               <a class='button icon-left ion-chevron-left button-clear' ng-click='previousCanvas()'>Previous</a>
-             
+             <a class='button button-assertive icon-right' ngclipboard data-clipboard-image="img/{{message}}/{{touchPageData}}">Copy</a>
              <!-- <a class='button button-balanced icon-right ion-android-volume-up' ng-click='soundCanvas()'>Sound</a>-->
               <a class='button icon-right ion-chevron-right button-clear' ng-click='nextCanvas()'>Next</a>
              

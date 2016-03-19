@@ -4,7 +4,7 @@
          <div class="item item-image" style="background-color:#EF473A">
     <h1 style="font-family:'cursive'">{{header}}</h1>
   </div>
- <div class="item item-body" >
+ <div class="item item-body">
     <h2 style="font-family:'cursive'" id="copy">"{{demo}}"</h2>
   </div>
         
@@ -15,7 +15,10 @@
 
          <div class='button-bar' id="buttonDiv">
               <a class='button icon-left ion-chevron-left button-clear' ng-click='previousCanvas()'>Previous</a>
-             
+         <!--    <button ngclipboard data-clipboard-text={{list.title}}>
+    Copy to clipboard
+</button>-->
+             <a class='button button-assertive icon-right' ngclipboard data-clipboard-text={{demo}}>Copy</a>
              <!-- <a class='button button-balanced icon-right ion-android-volume-up' ng-click='soundCanvas()'>Sound</a>-->
               <a class='button icon-right ion-chevron-right button-clear' ng-click='nextCanvas()'>Next</a>
              
