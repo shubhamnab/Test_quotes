@@ -1,4 +1,4 @@
-var myApp=angular.module('starter.controllers', ['ngCordova'])
+var myApp=angular.module('starter.controllers', ['ngCordova','ngclipboard'])
 myApp.factory('Data',function(){
     return{
         id:''

@@ -7,10 +7,17 @@
             <div class="card " ng-repeat="list in lists | filter:search" style="background-color:#EF473A">
                
 <!--     <a href="#/app/touch/{{list.id}}"><img class="full-image" ng-src="img/{{list.head}}/{{list.img}}" style="height:100%;color:"></a>-->
-         <a href="#/app/touch1/{{list.id}}"> <div class="item item-body">
+         <a href="#/app/touch1/{{list.id}}">
+            <div class="item item-body">
                 <p>{{list.title}}</p>
-                </div>
-          </a>  </div>
+               
+            </div>
+          </a> 
+                 <button ngclipboard data-clipboard-text={{list.title}}>
+    Copy to clipboard
+</button>
+         </div>
+         
         </div>
   </ion-content>
 </ion-view>
