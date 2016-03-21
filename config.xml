@@ -2,7 +2,7 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.Quotes"
+        id          = "com.phonegap.GoodQuotes"
         version     = "1.0.0"
         versionCode = "10" >
 
@@ -10,10 +10,10 @@
 
         <preference name="phonegap-version" value="cli-5.2.0" />
 
-        <name>Quotes</name>
+        <name>Good Quotes</name>
 
         <description>
-        Quotes app with images and text. 
+        Good Quotes app with images and text. 
         </description>
 
         <author href="http://www.webflax.in/" email="shubhamjaiswal1860@gmail.com">
